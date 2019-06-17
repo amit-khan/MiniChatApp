@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "540249450318",
+    "firebase_url": "https://minichatapp-de856.firebaseio.com",
+    "project_id": "minichatapp-de856",
+    "storage_bucket": "minichatapp-de856.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540249450318:android:999293bd615b503e",
+        "android_client_info": {
+          "package_name": "com.technofreak.minichatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540249450318-bvk7gfeg7q4od5r646sc3kh1nakqh62m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.technofreak.minichatapp",
+            "certificate_hash": "8eb39dd0a674ca1173401eba1b6e278a96333abd"
+          }
+        },
+        {
+          "client_id": "540249450318-gjtfbc32tr2qv5q2h34maen4fj9uekq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZEkWQyhxDY2U06ABuK5mJU9tTswsSWRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540249450318-gjtfbc32tr2qv5q2h34maen4fj9uekq8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

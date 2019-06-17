@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChatroomActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHAT ROOM"
+        android:fontFamily="serif"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv1"
+        android:layout_above="@id/logout_btn"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/logout_btn"
+        android:text="logout"
+        android:textStyle="bold"
+        android:background="@android:color/holo_red_light"
+        android:layout_margin="5dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="logout"
+        />
+
+</RelativeLayout>
