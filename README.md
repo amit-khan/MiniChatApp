@@ -1,8 +1,11 @@
 # MiniChatApp
-Android development | Chat application based on Firebase and GCM notifications
 
-Features:\
+**Features:**\
 • Real time message sending and receiving.\
-• Message representation similar to whatsapp.\
+• Whatsapp like Message representation.\
 • Read receipts that show to a user that a message has been read by another user.\
-• A typing indicator UI that indicates a user is typing.
+• A typing indicator UI that indicates a user is typing.\
+• Email authentication, Chat room as the start screen.\
+• GCM based notification.
+
+
